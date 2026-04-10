@@ -34,7 +34,7 @@ const Products = () => {
                 {/* <p className="text-grey">{product.category}</p> */}
                 <div className="flex gap-4">
                   <button className="btn-primary w-full text-center">
-                    <a href="https://wa.me/2349055666878">Book For Design</a>
+                    <a href="https://wa.me/2349020419489">Book For Design</a>
                   </button>
                 </div>
               </div>

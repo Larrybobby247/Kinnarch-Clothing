@@ -12,7 +12,7 @@ const Navbar = () => {
         to="/"
         onClick={() => window.scrollTo(0, 0)}
       >
-        <h1 className="font-bold text-xl logo">Kinnarch</h1>
+        <h1 className="font-bold text-xl logo">Kinnarh</h1>
         <span className="text-primary">Clothing</span>
       </Link>
 
