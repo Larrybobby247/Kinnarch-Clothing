@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer components{
+    .btn-primary{
+        @apply px-6 py-4 font-bold text-white bg-primary rounded-full transition-transform duration-300  w-fit cursor-pointer hover:bg-secondary
+    }
+    .btn-tertiary{
+        @apply flex items-center gap-2 bg-primary px-3 py-1 rounded-full text-white font-medium hover:bg-secondary transition duration-300
+    }
+    .nav-link-lg{
+        @apply hover:text-white hover:border-primary rounded-full px-3 hover:bg-primary transition duration-500
+    }
+    .nav-link-sm{
+        @apply py-3 px-6 rounded-full transition duration-300 hover:bg-primary hover:scale-[1.05] hover:text-white
+    }
+}
+
+@theme {
+    --color-grey: #808080;
+    --color-light: #ececec;
+    --color-primary: #D4AF37;
+    --color-secondary: #927925;
+    --color-faint: #00000085;
+}
+
+body{
+    overflow-x: hidden;
+    /* background: #927925; */
+    
+}
+
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.overlay::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.774);
+}
+
+.banner::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+
